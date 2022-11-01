@@ -22,6 +22,6 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run: pip install -r ./requirements.txt && python ./ucashelper.py hack
+    - run: pip install -r ./requirements.txt && python ./ucashelper.py assess
 
   
